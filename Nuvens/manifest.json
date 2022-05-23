@@ -1,0 +1,40 @@
+{
+
+"version": "0.0.2",
+"manifest_version": 2,
+  "name": "Nuvens",
+  "theme": {
+        "images" : {
+                "theme_frame" : "imgs/themeframe.png",
+                "theme_toolbar" : "imgs/themetoolbar.png",
+                "theme_ntp_background" : "imgs/newtabpagebackground.png",
+                "theme_tab_background" : "imgs/themetabbackground.png",
+                "theme_ntp_attribution": "imgs/atribu.png"
+        },
+
+"colors" : {
+                "ntp_link": [255,255,255],
+                "ntp_text": [255,255,255],
+                "ntp_section_link": [255,255,255],
+                "ntp_section_text": [255,255,255],
+                "ntp_background": [255,255,255],
+                "frame": [255,255,255],
+                "toolbar": [255,255,255],
+                "tab_text": [255,255,255],
+                "tab_background_text": [255,255,255],
+                "bookmark_text": [255,255,255],
+                "button_background": [131,194,232]
+        },
+
+"tints" : {
+                "buttons" : [-1, 0.5, 0.5],
+                "frame_inactive": [-1, -1, -1],
+                "frame_incognito_inactive": [0.50, 0.50, 0.50]
+        },
+
+"properties" : {
+                "ntp_background_alignment" : "bottom",
+                "ntp_background_repeat": "no-repeat"
+        }
+  }
+}
